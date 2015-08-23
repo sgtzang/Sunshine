@@ -36,7 +36,7 @@ public class MainActivityFragment extends Fragment {
                 "Sun - Sunny - 80/68"
         };
 
-        List<String> weekForecast = new ArrayList<String>( Arrays.asList(forecastArray)  );
+        List<String> weekForecast = new ArrayList<String>( Arrays.asList(forecastArray) );
 
         mForecastAdapter =
                 new ArrayAdapter<String>(
